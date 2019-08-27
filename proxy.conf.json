@@ -1,0 +1,10 @@
+{
+    "/posts": {
+      "target": "http://DEVNWNGD.RIL.COM:8000/sap/opu/odata/sap/Z_DQ_DATA_SRV/$metadata?saml2=disabled",
+      "secure": true,
+      "pathRewrite": {
+      "^/posts": ""
+    },
+      "changeOrigin": true
+    }
+  }
