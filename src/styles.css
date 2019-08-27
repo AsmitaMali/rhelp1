@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+.headerbar {
+    display:flex;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+
+.mat-toolbar {
+    display:flex;
+    padding-right: 16px;
+}
+
+.searchpg {
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+  }
+
+.search {
+    display: flex;
+
+}
+  
+  .results {
+    width: 100%;
+  }
+
+  .space {
+      flex: 1 1 auto;
+  }
